@@ -1,12 +1,24 @@
+# Python & Virtual Environment
 __pycache__/
 *.pyc
 .venv/
+
+# IDEs (VS Code, PyCharm)
 .vscode/
 .idea/
 
+# AI/ML Outputs
 runs/
 outputs/
-models/
+
+# Models & Weights
 *.pt
+!models/best.pt
 *.onnx
+
+*.mp4
+*.avi
+*.mov
+
+# Private Environment Variables
 .env
